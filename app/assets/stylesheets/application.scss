@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "social-share-button";
+
+body {
+  background: #FEDFDA;
+}
+
+#flipped-image {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.cont-center {
+  text-align: center;
+}
+
+.navbar {
+  background-color: white;
+  border-color: transparent;
+  color: black;
+}
+
+.title-top {
+  margin-top: 80px;
+}
+
+.comments {
+  background-color: green;
+  color: white;
+}
+
+.login-background {
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/09/16/06/sheep-931707_960_720.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  padding-top: 40px;
+
+}
+
+.blurry-back {
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0,0,0,0.2);
+  width: 300px;
+  border-radius: 3%;
+}

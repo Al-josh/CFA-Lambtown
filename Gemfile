@@ -54,3 +54,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'omniauth-github'
 gem 'social-share-button'
+gem 'friendly_id'
+gem 'simple_form'
